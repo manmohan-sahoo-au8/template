@@ -2,7 +2,7 @@ import React from 'react';
 import avtar from '../images/avtar.png';
 import savtar from '../images/savtar.png';
 import choose from '../images/choose.png';
-import curvy1 from '../images/curvy1.png';
+import question from '../images/question.png';
 import food from '../images/food.png';
 import watch from '../images/watch.png';
 import review1 from '../images/review1.png';
@@ -166,6 +166,25 @@ export default class Page extends React.Component {
                   </Card.Text>
                 </Card.Body>
                 <Button variant="light">Learn More</Button>
+              </Card>
+            </div>
+          </div>
+        </div>
+        <div className="container">
+          <Button variant="light">FAQ</Button>
+          <h1>Have question in mind? Let us help you</h1>
+          <div className="row">
+            <div className="col-sm-6 text-center">
+              <img src={question} alt="question" width="50%" />
+            </div>
+            <div className="col-sm-6 text-center">
+              <Card style={{ width: '30rem' }}>
+                <Card.Body>
+                  <h4>Frequently Asked Question</h4>
+                  <p>1.Question lorem ipsum? </p>
+                  <p>2.Question lorem ipsum?</p>
+                  <p>3.Question lorem ipsum?</p>
+                </Card.Body>
               </Card>
             </div>
           </div>
