@@ -6,6 +6,7 @@ import Home from './components/Home';
 import About from './components/About';
 import Blog from './components/Blog';
 import Footer from './components/Footer';
+import './app.css';
 
 class App extends Component {
   render() {
@@ -17,7 +18,7 @@ class App extends Component {
           <Route exact path="/about" component={About} ></Route>
           <Route exact path="/blog" component={Blog} ></Route>
           </Router> */}
-        {/* <Home/> */}
+        {/* <Home /> */}
         {/* <About /> */}
         <Blog />
         <Footer />

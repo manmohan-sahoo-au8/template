@@ -14,38 +14,33 @@ export class home extends Component {
   render() {
     return (
       <div>
-        <img src={logo} alt="banner" width="100%" />
-        <br />
-        <h2 className="text-center">Our Services</h2>
+        <img className="image" src={logo} alt="banner" width="100%" />
+        <h2 className="service">Our Services</h2>
+        <div className="container">
+          <p className="cardText">
+            29Meta founder has been working as a service provider since 2005 and
+            in this span of time has acquired all types of web development
+            skills so the possibilities are endless. 29Meta also recently
+            partnered with two talented teams in order to round out service
+            offerings.
+          </p>
+        </div>
         <br />
         <div className="container">
-          <div className="row">
-            <div className="col-lg-6 text-center">
-              <p className="card-text">
-                29Meta founder has been working as a service provider since 2005
-                and in this span of time has acquired all types of web
-                development skills so the possibilities are endless. 29Meta also
-                recently partnered with two talented teams in order to round out
-                service offerings.
-              </p>
-            </div>
-            <div className="col-lg-6 text-center">
-              <p className="card-text">
-                Our strategic partners along with our 29Meta team round out
-                services so that we can offer website design and mobile app
-                development services. With these crucial partners at our side we
-                feel we can deliver on any type of digital transformation
-                campaign thrown in our direction - and do it well, on time, and
-                while keeping our actions and campaigns affordable.
-              </p>
-            </div>
-          </div>
+          <p className="cardText">
+            Our strategic partners along with our 29Meta team round out services
+            so that we can offer website design and mobile app development
+            services. With these crucial partners at our side we feel we can
+            deliver on any type of digital transformation campaign thrown in our
+            direction - and do it well, on time, and while keeping our actions
+            and campaigns affordable.
+          </p>
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">
-              <h5 className="card-title">We Live in Data Driven World</h5>
-              <p className="card-text">
+              <h5 className="data">We Live in Data Driven World</h5>
+              <p className="para">
                 If you wonder what is happening in the world around you, take a
                 moment and consider how what you do contributes to brands and
                 companies around the globe which many people seem oblivious to
@@ -59,8 +54,8 @@ export class home extends Component {
             </div>
             <div className="col-md-6 text-center">
               <img src={cocount} alt="cocount" width="50%" />
-              <h5 className="card-title">To Blog or Not to Blog?</h5>
-              <p className="card-text">
+              <h5 className="data">To Blog or Not to Blog?</h5>
+              <p className="para">
                 At 29Meta, we asked ourselves this same question, answered it
                 and then decided to switch it up a bit. Blogging and curated
                 content are one of the easiest ways to keep a website fresh
@@ -80,32 +75,32 @@ export class home extends Component {
           <div className="row">
             <div className="col-md-3 text-center">
               <img className="img" src={banner} alt="banner" width="50%" />
-              <p className="card-title">Paid Media Campaign</p>
-              <p className="card-title">Plan, Build, Optimize</p>
+              <p className="text-light">Paid Media Campaign</p>
+              <p className="text-light">Plan, Build, Optimize</p>
             </div>
             <div className="col-md-3 text-center">
               <img className="img" src={tea} alt="tea" width="50%" />
-              <p className="card-title">Branding, Reputation, Awareness</p>
+              <p className="text-light">Branding, Reputation, Awareness</p>
             </div>
             <div className="col-md-3 text-center">
               <img className="img" src={boat} alt="boat" width="50%" />
-              <p className="card-title">SaaS & mobile App Development</p>
+              <p className="text-light">SaaS & mobile App Development</p>
             </div>
             <div className="col-md-3 text-center">
-              <img className="img" src={teacher} alt="teacher" width="50%" />
-              <p className="card-title">Digital Transfomation Stratergies</p>
+              <img className="img" src={teacher} alt="teacher" width="40%" />
+              <p className="text-light">Digital Transfomation Stratergies</p>
             </div>
           </div>
         </div>
         <div className="container">
-          <h2 className="text-center">Go Pro:</h2>
-          <h2 className="text-center">User-Centric Content</h2>
-          <p className="text-center">
+          <h2 className="pro">Go Pro:</h2>
+          <h2 className="pro">User-Centric Content</h2>
+          <p className="gopro">
             GoPro brand was the first example of truly exceptional user centric
             content marketing.
           </p>
-          <h4 className="text-center">How did they do it?</h4>
-          <p className="text-center">
+          <h4 className="how">How did they do it?</h4>
+          <p className="paragraph">
             They simply asked. Eager GoPro owners were happy to oblige and set
             forth uploading and publishing footage taken using their own GoPro
             camera. Soon, GoPro began hosting competitions and offering prizes
@@ -117,15 +112,17 @@ export class home extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">
-              <h5 className="card-title">
+              <h5 className="digital">
                 Digital Marketing & go Pro Youtube Channel
               </h5>
-              <p className="card-text">
+              <p className="cardpara">
                 GoPro is obviously an exceptional player in rich media and they
                 made their customers stars of their video channel at YouTube.{' '}
               </p>
-              <h3>What is your brand doing in this category? </h3>
-              <p>
+              <h4 className="brand">
+                What is your brand doing in this category?{' '}
+              </h4>
+              <p className="cardpara">
                 Rich media, and especially video is growing at a faster pace now
                 than ever before. Isn't it time you get creative and put rich
                 media to work for your brand? 29Meta can help!

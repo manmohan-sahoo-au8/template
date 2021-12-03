@@ -1,8 +1,17 @@
 .footer {
   background-color: #6f8192;
   color: white;
+  height: 200px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .title {
   font-weight: bold;
+}
+
+.ul {
+  text-align: left;
+  margin-left: 50px;
+  width: 200px;
 }
