@@ -5,10 +5,10 @@ export default class Header extends React.Component {
   render() {
     return (
       <div>
-        <Navbar bg="light" variant="light">
+        <Navbar bg="white" variant="light">
           <Container>
             <Navbar.Brand href="#home">Logo</Navbar.Brand>
-            <Nav className="me-auto">
+            <Nav className="ml-auto">
               <Nav.Link href="#home">Solutions</Nav.Link>
               <Nav.Link href="#features">Services</Nav.Link>
               <Nav.Link href="#pricing">Contact</Nav.Link>

@@ -1,0 +1,181 @@
+.build {
+  color: #0f214f;
+  width: 400px;
+  font-weight: 700;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.para {
+  width: 750px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.get {
+  width: 180px;
+  background-color: #ff473f;
+  height: 42px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  border: transparent;
+}
+.how {
+  width: 180px;
+  background-color: white;
+  height: 42px;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+  margin-left: 30px;
+}
+.img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #c4baf9;
+  display: block;
+  margin-right: auto;
+  margin-left: 120px;
+  border: transparent;
+}
+.engage {
+  color: #eb4970;
+  text-align: left;
+}
+.lorem {
+  color: #ffa300;
+  font-size: 20px;
+  text-align: left;
+}
+.lorempara {
+  text-align: left;
+  font-size: 13px;
+}
+.details {
+  width: 180px;
+  background-color: white;
+  height: 42px;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid lightblue;
+}
+.unique {
+  color: #eb4970;
+  text-align: left;
+}
+.iclass {
+  text-align: left;
+}
+.project {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #c4baf9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: transparent;
+}
+.projectpara {
+  width: 650px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-top: 80px;
+}
+.choose {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 400px;
+  height: 300px;
+}
+.food {
+  position: relative;
+  top: 0;
+  left: 50px;
+  width: 400px;
+  height: 300px;
+}
+.watch {
+  position: absolute;
+  bottom: 20px;
+  left: 380px;
+  width: 400px;
+  height: 300px;
+}
+.blog {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #ffb481;
+  display: block;
+  margin-right: auto;
+  border: transparent;
+}
+.from {
+  text-align: left;
+  color: #363636;
+}
+.learn {
+  width: 180px;
+  background-color: white;
+  height: 42px;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 2px;
+  border: 1px solid lightblue;
+}
+.more {
+  width: 180px;
+  background-color: #ff473f;
+  height: 42px;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 2px;
+  border: transparent;
+}
+.solution {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #ffb481;
+  display: block;
+  margin-right: auto;
+  border: transparent;
+}
+.perfect {
+  width: 400px;
+  text-align: left;
+}
+.perfectpara {
+  width: 450px;
+  text-align: left;
+  display: block;
+  margin-left: auto;
+}
+
+.faq {
+  border-radius: 12px;
+  font-size: 10px;
+  background-color: #f3dadc;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border: transparent;
+}
