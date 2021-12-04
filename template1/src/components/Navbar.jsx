@@ -14,16 +14,22 @@ export default class Navbarmenu extends React.Component {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Nav.Item>
-                <Nav.Link className="text-light">HOME</Nav.Link>
+                <Nav.Link>
+                  <Link to={'/'}>HOME</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-light">ABOUT</Nav.Link>
+                <Nav.Link>
+                  <Link to={'/about'}>ABOUT</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Nav.Link className="text-light">BLOG</Nav.Link>
+                <Nav.Link>
+                  <Link to={'/blog'}>BLOG</Link>
+                </Nav.Link>
               </Nav.Item>
               <Nav.Item>
-                <Button className="button" variant="light">
+                <Button className="buttonfree" variant="light">
                   FREE CONSULTATION
                 </Button>
               </Nav.Item>

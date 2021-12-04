@@ -4,8 +4,9 @@ import tea from '../images/tea.png';
 import banner from '../images/banner.png';
 import teacher from '../images/teacher.png';
 import boat from '../images/boat.png';
+import box from '../images/box.png';
 import '../styles/image.css';
-import '../styles/home.css';
+import '../styles/about.css';
 
 export class about extends Component {
   render() {
@@ -14,8 +15,8 @@ export class about extends Component {
         <img src={logo} alt="banner" width="100%" />
         <br />
         <div className="container">
-          <h2 className="text-center">Our History</h2>
-          <p>
+          <h2 className="history">Our History</h2>
+          <p className="metapara">
             29Meta founding partner, Tanya Thomas, has a long history and proven
             track record working in paid media and is also a certified data
             analyst with subject matter expertise in search engine optimization
@@ -27,7 +28,7 @@ export class about extends Component {
             success to clients. Most impressive (at least according to us) is
             our approach and process which has an analytics undertone.
           </p>
-          <p>
+          <p className="metapara">
             We begin building paid media campaigns using a data-driven approach
             that begins with a thorough data analysis of your industry and it's
             particular field of competitors. Believing that industry leaders
@@ -44,43 +45,55 @@ export class about extends Component {
             ourselves as growth hackers.
           </p>
         </div>
-        <div className="container">
-          <h2 className="text-center">Get In Touch With Us!</h2>
-          <p className="text-center">
-            Currently, we are still building this website. You may, however,
-            want to go ahead and contact us.{' '}
-          </p>
-          <div className="row">
-            <div className="col-md-6 text-center">
-              <p className="card-text">
-                If you are in a rush and want to speak to us now rather than
-                waiting. Simply click on the profile of your choice: Contact us
-                via Upwork.com profile. Contact us via LinkedIn.com profile. or
-                send us an email:
-              </p>
-              <button>Email us</button>
+        <div className="contactdiv">
+          <div className="container">
+            <h2 className="get">Get In Touch With Us!</h2>
+            <p className="text-center">
+              Currently, we are still building this website. You may, however,
+              want to go ahead and contact us.{' '}
+            </p>
+            <div className="row">
+              <div className="col-md-6 text-center">
+                <p className="emailpara">
+                  If you are in a rush and want to speak to us now rather than
+                  waiting. Simply click on the profile of your choice:
+                </p>
+                <p className="contactpara">
+                  Contact us via
+                  <a href="/">Upwork.com profile.</a>
+                </p>
+                <p className="contactpara">
+                  Contact us via
+                  <a href="/">Linkedin.com profile.</a>
+                </p>
+                <p className="contactpara">or send us an email:</p>
+                <button className="button">Email us</button>
+              </div>
+              <div className="col-md-6 text-center">
+                <img className="teacher" src={teacher} alt="teacher" />
+              </div>
             </div>
-            <div className="col-md-6 text-center">
-              <img src={teacher} alt="teacher" width="50%" />
-            </div>
+            <h3 className="text-center" style={{ color: '#617D96' }}>
+              Want to learn more about us?
+            </h3>
+            <h3 className="text-center" style={{ color: '#617D96' }}>
+              Visit our Blog.
+            </h3>
           </div>
-          <h3 className="text-center">Want to learn more about us?</h3>
-          <h3 className="text-center">Visit our Blog.</h3>
         </div>
-
-        <div className="container3">
+        <div className="container">
           <div className="row">
             <div className="col-md-3 text-center">
-              <img className="img" src={banner} alt="banner" width="50%" />
+              <img className="img" src={box} alt="teacher" width="50%" />
             </div>
             <div className="col-md-3 text-center">
-              <img className="img" src={tea} alt="tea" width="50%" />
+              <img className="img" src={box} alt="teacher" width="50%" />
             </div>
             <div className="col-md-3 text-center">
-              <img className="img" src={boat} alt="boat" width="50%" />
+              <img className="img" src={box} alt="teacher" width="50%" />
             </div>
             <div className="col-md-3 text-center">
-              <img className="img" src={teacher} alt="teacher" width="50%" />
+              <img className="img" src={box} alt="teacher" width="50%" />
             </div>
           </div>
         </div>
