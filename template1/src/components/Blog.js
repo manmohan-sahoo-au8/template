@@ -110,13 +110,13 @@ export class blog extends Component {
               </div>
             </div>
             <div className="col-md-6 text-center">
-              <h3>Creativity Starts Here!</h3>
-              <p>
+              <h3 className="start">Creativity Starts Here!</h3>
+              <p className="startpara">
                 When ordinary static paid media no longer delivers positive
                 results for marketing campaigns, it's time to turn up the heat
                 on competitors using creativity.
               </p>
-              <p>
+              <p className="startpara">
                 Rich media offers brands an opportunity to build new online
                 channels that drive quality leads. Isn't it time you begin
                 advancing your brand marketing? Why not let 29Meta show you how
@@ -125,8 +125,8 @@ export class blog extends Component {
               </p>
             </div>
           </div>
-          <h3 className="text-center">Expainer Videos on Youtube Channels</h3>
-          <p className="text-center">
+          <h3 className="expainer">Expainer Videos on Youtube Channels</h3>
+          <p className="expainerpara">
             There are many ways to use rich media, especially video advertising
             to grow online sales and offer service and support to consumers.
             Above is a past client, Ozark River Portable Sinks, explainer video.
