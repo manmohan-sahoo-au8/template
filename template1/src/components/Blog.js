@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../images/cocount.png';
 import eye from '../images/eye.png';
-import youtube from '../images/youtube.png';
+import '../styles/blog.css';
 
 export class blog extends Component {
   render() {
@@ -10,13 +10,16 @@ export class blog extends Component {
         <img src={logo} alt="banner" width="100%" />
         <br />
         <div className="container">
-          <h2 className="text-center">The 29META Blog</h2>
-          <img src={eye} alt="banner" width="50%" />
+          <h2 className="meta">The 29META Blog</h2>
+          <img className="banner" src={eye} alt="banner" width="50%" />
         </div>
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">
-              <p className="card-text">
+              <div className="circle">
+                <i class="fas fa-user-alt fa-5x justify-content-center mt-4"></i>
+              </div>
+              <p className="blogpara">
                 This blog is about people and personal freedoms, data, data
                 privacy and paid media campaign tracking. We likely will discuss
                 many issues relating to data, tracking and advertising at
@@ -24,7 +27,7 @@ export class blog extends Component {
                 strategies. Along with how these companies sell and resell first
                 party audience data for their own monetization schemes.
               </p>
-              <p>
+              <p className="blogpara">
                 And, you are welcome to comment here and via email. We welcome
                 your input and suggestions. Send us their own reactions and
                 responses at anytime you feel the urge. But, please, play nice!
@@ -33,8 +36,8 @@ export class blog extends Component {
               </p>
             </div>
             <div className="col-md-6 text-center">
-              <h3>ORIGINAL AND CURATED CONTENT</h3>
-              <p>
+              <h4 className="curated">ORIGINAL AND CURATED CONTENT</h4>
+              <p className="originalpara">
                 One thing all media campaigns and marketing activities should
                 have in common is that they stem from a simple keyword and key
                 selling statement or keyword phrase. The next common trait or
@@ -46,7 +49,7 @@ export class blog extends Component {
                 landing pages -it is highly unlikely you will realize a positive
                 ROAS or Return on Ad Spend.{' '}
               </p>
-              <p>
+              <p className="originalpara">
                 At 29Meta, we understand how all parts of the brand and business
                 marketing machine and have been around far longer than even the
                 SEO industry. Experience makes a difference when you get down to
@@ -64,22 +67,24 @@ export class blog extends Component {
         </div>
 
         <div className="container">
-          <h3 className="text-center">
-            Let Us Look How Some Brands Use Rich Media:
-          </h3>
-          <h3 className="text-center">Beginning With Youtube...</h3>
-          <p className="text-center">Take a look at some of our favorite </p>
-          <p className="text-center">Youtube Advertisements.</p>
-          <p className="text-center">Here's a great example: </p>
-          <p className="text-center">
+          <h4 className="letus">Let Us Look How Some Brands Use Rich Media:</h4>
+          <h4 className="letus">Beginning With Youtube...</h4>
+          <p className="lookpara">
+            Take a look at some of our favorite Youtube Advertisements
+          </p>
+          <p className="text-center ">Here's a great example: </p>
+          <p className="videopara">
             Consider the YouTube video below to see how an automobile is built
-            piece by
+            piece by piece and you will begin to imagine how our campaigns are
+            designed.
           </p>
-          <p className="text-center">
-            piece and you will begin to imagine how our campaigns are designed.{' '}
-          </p>
-          <img src={youtube} alt="youtube" width="50%" />
-          <p>
+          <div className="box">
+            <i
+              class="fas fa-play-circle fa-5x ml-mt-5"
+              style={{ color: 'red ' }}
+            ></i>
+          </div>
+          <p className="noticepara">
             If you notice in this YouTube video posted by The Used Car Guy, you
             will see how each piece and part of a vehicle has a role in the
             overall performance and operation of the car. To properly perform at
@@ -87,7 +92,7 @@ export class blog extends Component {
             overall. This is how 29Meta sees digital and especially media
             campaigns.
           </p>
-          <p>
+          <p className="noticepara">
             There are many parts which make up the whole of a brand's online
             visibility online. And, it begins with something as simple as a
             keyword.{' '}
@@ -96,7 +101,13 @@ export class blog extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-6 text-center">
-              <img src={youtube} alt="youtube" width="50%" />
+              <div className="youtube">
+                {' '}
+                <i
+                  class="fab fa-youtube fa-5x mt-5"
+                  style={{ color: 'red ' }}
+                ></i>
+              </div>
             </div>
             <div className="col-md-6 text-center">
               <h3>Creativity Starts Here!</h3>
